@@ -4,7 +4,7 @@ defmodule ExqAtomizeJobArguments.MixProject do
   def project do
     [
       app: :exq_atomize_job_arguments,
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.6",
       start_permanent: Mix.env() == :prod,
       deps: deps()
@@ -22,7 +22,7 @@ defmodule ExqAtomizeJobArguments.MixProject do
   defp deps do
     [
       {:atomic_map, "~> 0.8"},
-      {:exq, "~> 0.11.0"},
+      {:exq, "~> 0.12.0"},
       {:credo, "~> 0.3", only: [:dev, :test]}
     ]
   end
