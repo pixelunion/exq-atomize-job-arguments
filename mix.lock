@@ -4,9 +4,10 @@
   "connection": {:hex, :connection, "1.0.4", "a1cae72211f0eef17705aaededacac3eb30e6625b04a6117c1b2db6ace7d5976", [:mix], [], "hexpm"},
   "credo": {:hex, :credo, "1.1.2", "02b6422f3e659eb74b05aca3c20c1d8da0119a05ee82577a82e6c2938bf29f81", [:mix], [{:bunt, "~> 0.2.0", [hex: :bunt, repo: "hexpm", optional: false]}, {:jason, "~> 1.0", [hex: :jason, repo: "hexpm", optional: false]}], "hexpm"},
   "elixir_uuid": {:hex, :elixir_uuid, "1.2.0", "ff26e938f95830b1db152cb6e594d711c10c02c6391236900ddd070a6b01271d", [:mix], [], "hexpm"},
-  "exq": {:hex, :exq, "0.13.0", "1ebd137bde2540a5882d09e59e62749725e771afc3efef2b25fbc55ba3364e2b", [:mix], [{:elixir_uuid, ">= 1.2.0", [hex: :elixir_uuid, repo: "hexpm", optional: false]}, {:poison, ">= 1.2.0 or ~> 2.0", [hex: :poison, repo: "hexpm", optional: false]}, {:redix, ">= 0.8.1", [hex: :redix, repo: "hexpm", optional: false]}], "hexpm"},
+  "exq": {:hex, :exq, "0.13.3", "e9d58aee9a6d7cd0697ca268fd021c6514bec545b83b0c2fb261c16865cda154", [:mix], [{:elixir_uuid, ">= 1.2.0", [hex: :elixir_uuid, repo: "hexpm", optional: false]}, {:jason, "~> 1.0", [hex: :jason, repo: "hexpm", optional: true]}, {:poison, ">= 1.2.0 or ~> 2.0", [hex: :poison, repo: "hexpm", optional: true]}, {:redix, ">= 0.8.1", [hex: :redix, repo: "hexpm", optional: false]}], "hexpm"},
   "jason": {:hex, :jason, "1.1.2", "b03dedea67a99223a2eaf9f1264ce37154564de899fd3d8b9a21b1a6fd64afe7", [:mix], [{:decimal, "~> 1.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm"},
   "poison": {:hex, :poison, "4.0.1", "bcb755a16fac91cad79bfe9fc3585bb07b9331e50cfe3420a24bcc2d735709ae", [:mix], [], "hexpm"},
-  "redix": {:hex, :redix, "0.9.1", "7a97d04cef2d88a5042cdb911ee9f2a67fa960c75db2beec6947acbd89a0151d", [:mix], [], "hexpm"},
+  "redix": {:hex, :redix, "0.10.2", "a9eabf47898aa878650df36194aeb63966d74f5bd69d9caa37babb32dbb93c5d", [:mix], [{:telemetry, "~> 0.4.0", [hex: :telemetry, repo: "hexpm", optional: false]}], "hexpm"},
+  "telemetry": {:hex, :telemetry, "0.4.0", "8339bee3fa8b91cb84d14c2935f8ecf399ccd87301ad6da6b71c09553834b2ab", [:rebar3], [], "hexpm"},
   "uuid": {:hex, :uuid, "1.1.8", "e22fc04499de0de3ed1116b770c7737779f226ceefa0badb3592e64d5cfb4eb9", [:mix], [], "hexpm"},
 }
