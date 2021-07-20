@@ -22,7 +22,7 @@ defmodule ExqAtomizeJobArguments.MixProject do
   defp deps do
     [
       {:atomic_map, "~> 0.8"},
-      {:exq, "~> 0.14.0"},
+      {:exq, "~> 0.15.0"},
       {:credo, "~> 1.0", only: [:dev, :test]}
     ]
   end
